@@ -1,0 +1,63 @@
+* {
+  font-family: 'Inter var', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.webcam {
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #30292F;
+  padding: 0 2rem;
+}
+
+.header canvas {
+  margin-left: auto;
+}
+
+.header h1 {
+  color: #ddd9ff;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #3F4045;
+}
+
+.button {
+  background-color: #355691;
+  border: 0px solid #355691;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #5F5AA2;
+  color: white;
+}
+
+#play_button {
+  visibility: hidden;
+}
